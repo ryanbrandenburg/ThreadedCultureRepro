@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0-*",
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+  "frameworks": {
+    "netstandardapp1.5":{
+      "imports": [
+        "dnxcore50",
+        "portable-net451+win8"
+      ],
+      "dependencies": {
+        "System.Threading.Thread": "4.0.0-rc2-*",
+        "NetStandard.Library": "1.5.0-*"
+      }
+    }
+  }
+}
